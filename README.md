@@ -16,6 +16,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Stars](https://img.shields.io/github/stars/Yuan-ManX/SoundX?style=social)
 
+![SoundX](./assets/SoundX.gif)
 
 #### [English](./README.md) | [中文文档](./README_CN.md)
 
