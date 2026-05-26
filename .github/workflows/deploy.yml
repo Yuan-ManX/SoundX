@@ -2,7 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
@@ -32,7 +34,7 @@ jobs:
         run: cd website && npm ci
 
       - name: Build
-        run: cd website && npm run build
+        run: cd website && npx tsc && npx vite build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
