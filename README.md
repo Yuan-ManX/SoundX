@@ -2,16 +2,13 @@
 
 <img src="./assets/SoundX.png" alt="SoundX Logo">
 
-
 <h1 align="center">SoundX</h1>
 <p align="center">
   <strong>AI-Native Digital Audio Workstation</strong><br/>
   <sub>An autonomous agent framework for music production — planning, generation, and cross-engine delivery driven by natural language.</sub>
 </p>
 
-![Website Demo](./website/public/hero-demo.gif)
-
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Stars](https://img.shields.io/github/stars/Yuan-ManX/SoundX?style=social)
